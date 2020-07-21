@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+
+//
+// Grid mixins
+//
+
+@import "@import ~bootstrap/scss/_mixins.scss";
+
+
+// including variables and mixins
+@import "./assets/theme/variables";
+@import "./assets/theme/mixins";
+@import "./assets/theme/flexbox";
+@import "./assets/theme/reset";
+
+
+// Custom Scss 
+@import "./assets/theme/predefined";
+@import "./assets/theme/elements";
+@import "./assets/theme/header";
+@import "./assets/theme/home";
+@import "./assets/theme/pages";
+@import "./assets/theme/footer";
+
+#logo img{
+    height: 100px;
+}
