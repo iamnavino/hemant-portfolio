@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { JobHistoryComponent } from './job-history/job-history.component';
 import { HeaderTwoComponent } from './components/header-two/header-two.component';
+import { PortfolioDetailsComponent } from './portfolio-details/portfolio-details.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HeaderTwoComponent } from './components/header-two/header-two.component
     FooterComponent,
     JobHistoryComponent,
     HeaderTwoComponent,
+    PortfolioDetailsComponent,
   ],
   imports: [
     BrowserModule,

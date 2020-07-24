@@ -70,6 +70,12 @@ export class HomeComponent implements OnInit {
   slidesStore: any[] = [
     {
       id:'',
+      client:'Christoph Drayss',
+      position:' Lorsch, Germany',
+      message: '    It is a pleasure to work with Hemant as he is very responsive and had throughout understanding of Angular (Material) / ngx etc.',
+    },
+    {
+      id:'',
       client:'Yasser B.',
       position:'Bloomfield, New Jersey',
       message: 'Working with Hemant was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.',
@@ -92,6 +98,8 @@ export class HomeComponent implements OnInit {
       position:'Co-Founder @ mpdm.agency',
       message:'We have collaborated with Hemant on some small projects. They were active and did their best to solve our issues. We are certainly going to collaborate on more projects in the future, thanks to their willingness to help us out and their availability.'
     },
+
+
   ];
   slidesStoreBrand: any[] = [
     {

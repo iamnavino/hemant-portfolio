@@ -18,7 +18,7 @@ export class AppComponent {
         return;
       }
       window.scrollTo(0, 0);
-      this.classAdd = window.location.pathname === '/about' ? true : false
+      this.classAdd = window.location.pathname === '/about' || window.location.pathname === '/portfolio'  ? true : false
     });
   }
 }
