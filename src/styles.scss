@@ -28,3 +28,16 @@
 #logo img{
     height: 100px;
 }
+.owl-theme .owl-dots .owl-dot span {
+    height: 4px;
+    width: 40px;
+    background: #eeeeee;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #3b5998;
+}
