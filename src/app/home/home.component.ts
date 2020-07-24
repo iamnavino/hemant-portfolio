@@ -72,7 +72,7 @@ export class HomeComponent implements OnInit {
       id:'',
       client:'Christoph Drayss',
       position:' Lorsch, Germany',
-      message: '    It is a pleasure to work with Hemant as he is very responsive and had throughout understanding of Angular (Material) / ngx etc.',
+      message: '    It is a pleasure to work with Hemant as he is very responsive and had throughout understanding of Angular (Material) / ngrx etc.',
     },
     {
       id:'',
