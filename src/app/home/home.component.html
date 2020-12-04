@@ -37,20 +37,21 @@
 	<div class="container">
 		<div class="brand-wrap">
 			<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
-				
-				<owl-carousel-o [options]="customOptionsBrand" (translated)="getPassedDataBrand($event)" class="testi_slider owl-carousel owl-theme owl-responsive--1 owl-loaded">
+
+				<owl-carousel-o [options]="customOptionsBrand" (translated)="getPassedDataBrand($event)"
+					class="testi_slider owl-carousel owl-theme owl-responsive--1 owl-loaded">
 
 					<ng-container *ngFor="let slide of slidesStoreBrand">
 						<ng-template carouselSlide [id]="slide.id">
 							<div class="col single-brand">
 								<a href="#"><img class="mx-auto" [src]="slide.img" alt=""></a>
 							</div>
-					
+
 						</ng-template>
 					</ng-container>
-				
+
 				</owl-carousel-o>
-			
+
 				<!-- <div class="col single-brand">
 					<a href="#"><img class="mx-auto" src="assets/img/brand/b2.png" alt=""></a>
 				</div>
@@ -72,51 +73,51 @@
 
 <!-- Start About Area -->
 <section class="about-area section-gap">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6 about-left">
-                <img class="img-fluid" src="assets/img/about-img.jpg" alt="">
-            </div>
-            <div class="col-lg-5 col-md-12 about-right">
-                <div class="section-title">
-                    <h2>about myself</h2>
-                </div>
-                <div class="mb-50 wow fadeIn" data-wow-duration=".8s">
-                    <p>
-                        Hi! I am Hemant Patidar, a web designer/developer focused on crafting great web experiences.
-                        Designing and Coding have been my passion since the days I started working with computers but I
-                        found myself into web design/development since 2012. I enjoy creating beautifully designed,
-                        intuitive and functional websites.
-                    </p>
-                    <p> For over past 8 years, I have worked for some of the best digital agencies and wonderful clients
-                        to create some award winning works. And, I can make this happen for your business as well.
-                    </p>
-                    <img src="./assets/img/signature.png" alt="">
-                </div>
-             <div>
-				<a routerLink="about" class="primary-btn white" data-text="More Info">
-                    <span>M</span>
-                    <span>o</span>
-                    <span>r</span>
-                    <span>e</span>
-                    <span> </span>
-                    <span>I</span>
-                    <span>n</span>
-                    <span>f</span>
-                    <span>o</span>
-                </a>
-                <a routerLink="about" class="primary-btn" data-text="Resume">
-                    <span>R</span>
-                    <span>e</span>
-                    <span>s</span>
-                    <span>u</span>
-                    <span>m</span>
-                    <span>e</span>
-                </a>
-			 </div>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row align-items-center justify-content-between">
+			<div class="col-lg-6 about-left">
+				<img class="img-fluid" src="assets/img/about-img.jpg" alt="">
+			</div>
+			<div class="col-lg-5 col-md-12 about-right">
+				<div class="section-title">
+					<h2>about myself</h2>
+				</div>
+				<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
+					<p>
+						Hi! I am Hemant Patidar, a web designer/developer focused on crafting great web experiences.
+						Designing and Coding have been my passion since the days I started working with computers but I
+						found myself into web design/development since 2012. I enjoy creating beautifully designed,
+						intuitive and functional websites.
+					</p>
+					<p> For over past 8 years, I have worked for some of the best digital agencies and wonderful clients
+						to create some award winning works. And, I can make this happen for your business as well.
+					</p>
+					<img src="./assets/img/signature.png" alt="">
+				</div>
+				<div>
+					<a routerLink="about" class="primary-btn white" data-text="More Info">
+						<span>M</span>
+						<span>o</span>
+						<span>r</span>
+						<span>e</span>
+						<span> </span>
+						<span>I</span>
+						<span>n</span>
+						<span>f</span>
+						<span>o</span>
+					</a>
+					<a routerLink="about" class="primary-btn" data-text="Resume">
+						<span>R</span>
+						<span>e</span>
+						<span>s</span>
+						<span>u</span>
+						<span>m</span>
+						<span>e</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- End About Area -->
 
@@ -254,9 +255,9 @@
 				<div class="single-service wow fadeInUp" data-wow-duration="1s">
 					<span class="lnr lnr-screen"></span>
 					<h4>
-						<span>UI/UX </span> Design 
+						<span>UI/UX </span> Design
 					</h4>
-					<p>If you’re looking blank casvsettes on the web, you may confuse.				</p>
+					<p>If you’re looking blank casvsettes on the web, you may confuse. </p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6">
@@ -290,9 +291,10 @@
 
 
 <!-- Start Testimonials Area -->
-<section class="testimonials_area section-gap">
+<!-- <section class="testimonials_area section-gap">
 	<div class="container">
-		<owl-carousel-o [options]="customOptions" (translated)="getPassedData($event)" class="testi_slider owl-carousel owl-theme owl-responsive--1 owl-loaded">
+		<owl-carousel-o [options]="customOptions" (translated)="getPassedData($event)"
+			class="testi_slider owl-carousel owl-theme owl-responsive--1 owl-loaded">
 
 			<ng-container *ngFor="let slide of slidesStore">
 				<ng-template carouselSlide [id]="slide.id">
@@ -317,11 +319,41 @@
 							</div>
 						</div>
 					</div>
-			
+
 				</ng-template>
 			</ng-container>
-		
+
 		</owl-carousel-o>
 	</div>
-</section>
+</section> -->
 <!-- End Testimonials Area -->
+
+
+<section class="service-area section-gap">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12" >
+				<div class="section-title">
+					<h2>Testomonial</h2>
+					<p>Testimonials are written or recorded statements that support your credibility and level of
+						expertise. They also strengthen your reputation by expressing the trust that other people have
+						in you and your business offerings.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row" >
+			<div class="col-lg-6 col-md-12" *ngFor="let slide of slidesStore" style="margin-bottom: 15px;">
+				<div class="testomonial">
+					<span class="lnr lnr-screen"></span>
+					<h4>
+						<span>{{slide.client}}</span>
+					</h4>
+					<p> <i class="fa fa-map-marker" aria-hidden="true"></i>
+						{{slide.position}}
+					</p>
+					<p>{{slide.message}} </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

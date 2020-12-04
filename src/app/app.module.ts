@@ -25,7 +25,7 @@ import { PortfolioDetailsComponent } from './portfolio-details/portfolio-details
     PortfolioDetailsComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     CarouselModule,
     AppRoutingModule,
     BrowserAnimationsModule
